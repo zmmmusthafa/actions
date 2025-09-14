@@ -1,0 +1,10 @@
+name: first_workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  first-job:
+    steps:
+      - name: first-step
+        run: echo "Hello World"
